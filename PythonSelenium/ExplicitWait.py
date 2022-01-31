@@ -23,7 +23,6 @@ driver.find_element_by_xpath("//*[@data-stid='location-field-leg1-destination-me
 time.sleep(3)
 driver.find_element_by_xpath("(//*[@data-stid='location-field-leg1-destination-results']//li)[1]").click()
 driver.find_element_by_xpath("//*[@data-testid='submit-button']").click()
-
 # Explicit wait - It's not on the time base. we use this for conditions base
 
 wait = WebDriverWait(driver, 10)

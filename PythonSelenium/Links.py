@@ -11,7 +11,6 @@ links = driver.find_elements(By.TAG_NAME, 'a')
 print("Total number of Links in a page", len(links))
 
 driver.find_element(By.LINK_TEXT, 'Sign in').click()
-
 for link in links:
     print(link.text)
 
