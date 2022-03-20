@@ -17,7 +17,5 @@ for handle in handles:
     print(driver.title)
     if driver.title == "Toysrus.com, The Official Toys”R”Us Site - Toys, Games, & More":
         driver.close()
-    else:
-        print("Issue")
 
 
