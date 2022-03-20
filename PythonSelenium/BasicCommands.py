@@ -11,5 +11,5 @@ print(driver.title)  # Title of the page
 print(driver.current_url)  # Returns current url of the page
 driver.find_element_by_xpath("//*[@data-tabno='1' and text() = 'LATEST']").click()
 time.sleep(5)
-
+print("satya sunil")
 driver.close()
