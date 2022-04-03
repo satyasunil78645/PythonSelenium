@@ -46,7 +46,7 @@ x = "awesome"  # global variable
 
 
 def my_func():
-    global x  # changing the global variable inside the function, we use global
+    global x  # changing the global variable inside the function, we use globa  l
     x = "fantastic"
 
 
