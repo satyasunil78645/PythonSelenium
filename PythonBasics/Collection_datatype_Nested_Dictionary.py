@@ -37,4 +37,6 @@ Employee_dict = {
     "Emp3": Emp3,
     "Emp4": my_family["child1"]
 }
-print(Employee_dict)
+# print(Employee_dict)
+print(Employee_dict['Emp1']['name'])
+print(Employee_dict.get('Emp1').get('name'))
